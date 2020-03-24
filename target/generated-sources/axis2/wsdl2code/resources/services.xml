@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- This file was auto-generated from WSDL --><!-- by the Apache Axis2 version: 1.6.1  Built on : Aug 31, 2011 (12:22:40 CEST) --><serviceGroup>
+    <service name="PersonServiceService">
+        <messageReceivers>
+            <messageReceiver mep="http://www.w3.org/ns/wsdl/in-out" class="com.service.PersonServiceServiceMessageReceiverInOut"/>
+        </messageReceivers>
+        <parameter name="ServiceClass">com.service.PersonServiceServiceSkeleton</parameter>
+        <parameter name="useOriginalwsdl">true</parameter>
+        <parameter name="modifyUserWSDLPortAddress">true</parameter>
+        <operation name="getPerson" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://Interfaces.Service/">
+            <actionMapping>http://Interfaces.Service/PersonService/getPerson</actionMapping>
+            <outputActionMapping>http://Interfaces.Service/PersonService/getPersonResponse</outputActionMapping>
+        </operation>
+        <operation name="getPersonsBySalary" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://Interfaces.Service/">
+            <actionMapping>http://Interfaces.Service/PersonService/getPersonsBySalary</actionMapping>
+            <outputActionMapping>http://Interfaces.Service/PersonService/getPersonsBySalaryResponse</outputActionMapping>
+        </operation>
+    </service>
+</serviceGroup>
